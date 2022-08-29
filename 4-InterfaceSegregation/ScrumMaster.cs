@@ -1,6 +1,6 @@
 namespace InterfaceSegregation
 {
-    public class ScrumMaster : IActivities
+    public class ScrumMaster : IWorkTeamActivities
     {
         public ScrumMaster()
         {
@@ -21,14 +21,5 @@ namespace InterfaceSegregation
             Console.WriteLine("I'm designing new futures");
         }
 
-        public void Develop() 
-        {
-            Console.WriteLine("I'm developing the functionalities required");
-        }
-
-        public void Test() 
-        {
-            Console.WriteLine("I'm testing the application");
-        }
     }
 }
