@@ -23,9 +23,9 @@ public class StudentTest
     // [Fact]
     // public void GetStudent()
     // {
-    //     var LogbookMock = new Mock<Logbook>();
-    //     var stundentRepositoryMock = new Mock<StudentRepository>()
-    //                                     .Setup(p=> p.GetAll())
+    //     var LogbookMock = new Mock<ILogbook>();
+    //     var stundentRepositoryMock = new Mock<IStudentRepository>();
+    //     stundentRepositoryMock.Setup(p=> p.GetAll())
     //                                     .Returns(new List<Student>()
     //                                     {
     //                                         new Student(1, "Pepito Pérez", new List<double>() { 3, 4.5 }),
